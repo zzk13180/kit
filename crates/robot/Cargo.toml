@@ -1,0 +1,8 @@
+[package]
+name = "kit-robot"
+version = "0.1.0"
+authors = ["zhangzhankui <zzk13180@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+autopilot = "0.4"

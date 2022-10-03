@@ -1,6 +1,7 @@
 {
   "build": {
-    "distDir": "index.html"
+    "distDir": "../../index.html",
+    "withGlobalTauri": true
   },
   "package": {
     "productName": "kit",

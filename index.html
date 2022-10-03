@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:," />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>example</title>
+  </head>
+  <body>
+    <h1
+      onclick="window.__TAURI__.invoke('storage_del',{
+      theArgument: 'theArgument',
+    })"
+    >
+      example
+    </h1>
+    <script>
+      window.addEventListener("DOMContentLoaded", (event) =>
+        window.__TAURI__.invoke("test_handler", {
+          theArgument: "theArgument",
+        })
+      );
+    </script>
+  </body>
+</html>
