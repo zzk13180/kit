@@ -1,5 +1,5 @@
 [package]
-name = "kit-robot"
+name = "zzk13180_kit_robot"
 version = "0.1.0"
 authors = ["zhangzhankui <zzk13180@gmail.com>"]
 edition = "2021"

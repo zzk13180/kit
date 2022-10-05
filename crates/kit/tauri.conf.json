@@ -1,5 +1,6 @@
 {
   "build": {
+    "devPath": "../../index.html",
     "distDir": "../../index.html",
     "withGlobalTauri": true
   },
