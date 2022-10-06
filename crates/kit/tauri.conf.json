@@ -1,7 +1,7 @@
 {
   "build": {
-    "devPath": "../../index.html",
-    "distDir": "../../index.html",
+    "devPath": "http://127.0.0.1:8080",
+    "distDir": "../../out",
     "withGlobalTauri": true
   },
   "package": {
