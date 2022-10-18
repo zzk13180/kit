@@ -6,7 +6,14 @@ import windiCSS from 'vite-plugin-windicss'
 // https://vitejs.dev/config/
 export const baseconfig = async ({ command }) => {
   const isBuild = command === 'build'
-  const plugins = [VueJsx(), Vue(), windiCSS()]
+  const vueOptions = {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag: string) => tag.startsWith('my-'),
+      },
+    },
+  }
+  const plugins = [VueJsx(), Vue(vueOptions), windiCSS()]
   const postcssPlugins = []
   const alias = {}
   const proxy = {}
