@@ -10,7 +10,7 @@ export default defineConfig({
     react(),
   ],
   site: 'https://zzk13180.github.io',
-  base: '/seed',
+  base: '/kit',
   output: 'static',
   build: {
     format: 'file',

@@ -1,8 +1,8 @@
-export const BASE = 'seed'
+export const BASE = 'kit'
 
 export const SITE = {
-  title: 'Seed',
-  description: 'monorepo seed project.',
+  title: 'kit',
+  description: 'monorepo kit project.',
   defaultLanguage: 'zh_CN',
 }
 
@@ -23,7 +23,7 @@ export const KNOWN_LANGUAGES = {
 } as const
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES)
 
-export const GITHUB_EDIT_URL = 'https://github.com/zzk13180/seed/tree/main/apps/doc'
+export const GITHUB_EDIT_URL = 'https://github.com/zzk13180/kit/tree/main/apps/doc'
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {

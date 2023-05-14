@@ -1,5 +1,5 @@
 {
-  "name": "@seed/doc",
+  "name": "@kit/doc",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,9 +11,7 @@
     "gh": "gh-pages -d dist"
   },
   "dependencies": {
-    "@seed/common": "workspace:*",
-    "@seed/vue": "workspace:*",
-    "@seed/react": "workspace:*",
+    "@kit/common": "workspace:*",
     "astro": "^1.5.0",
     "preact": "^10.7.3",
     "react": "^18.2.0",
