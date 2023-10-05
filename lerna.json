@@ -1,0 +1,5 @@
+{
+  "npmClient": "pnpm",
+  "workspaces": ["packages/**", "app/**"],
+  "version": "0.0.1"
+}

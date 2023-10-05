@@ -9,7 +9,9 @@
 
 .theme-toggle > label:focus-within {
   outline: 2px solid transparent;
-  box-shadow: 0 0 0 0.08em var(--theme-accent), 0 0 0 0.12em white;
+  box-shadow:
+    0 0 0 0.08em var(--theme-accent),
+    0 0 0 0.12em white;
 }
 
 .theme-toggle > label {
@@ -29,9 +31,6 @@
 input[name='theme-toggle'] {
   position: absolute;
   opacity: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0;
   z-index: -1;
 }
