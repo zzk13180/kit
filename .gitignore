@@ -7,6 +7,9 @@
 
 **/target
 **/node_modules
+**/dist
+**/build
+**/.angular
 
 *.log
 **/logs
@@ -28,10 +31,6 @@ lerna-debug.log*
 .pnp.*
 
 .turbo
-build/**
-configs/**/dist
-apps/**/dist
-packages/**/dist
 
 /tmp
 /out-tsc

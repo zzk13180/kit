@@ -112,21 +112,22 @@ export class ListDataService {
     },
     {
       title: 'website',
-      link: 'https://github.com/zzk13180/website',
+      link: 'https://www.zhangzhankui.com/projects',
       imgSrc: 'https://apps.zhangzhankui.com/website/favicon.svg',
-      content_ZH: '本站源码。使用Angular框架开发。',
-      content_EN: 'Source code of this site. Developed using the Angular framework.',
+      content_ZH: '我的个人网站。',
+      content_EN: 'MY Personal Website.',
     },
   ]
 
   getCardSource(keyword: string): Card[] {
     return this.cardSource.filter(item => {
       return (
-        item.title === 'zzk13180' ||
-        item.title === 'bilibili' ||
-        item.title.includes(keyword) ||
-        item.content_ZH.includes(keyword) ||
-        item.content_EN.includes(keyword)
+        item.title === 'seed' ||
+        item.title === 'passbox' ||
+        item.title === 'website' ||
+        item.title.toLowerCase().includes(keyword.toLowerCase()) ||
+        item.content_ZH.toLowerCase().includes(keyword.toLowerCase()) ||
+        item.content_EN.toLowerCase().includes(keyword.toLowerCase())
       )
     })
   }
