@@ -1,0 +1,152 @@
+:root {
+  --color-bg-secondary: #d5d5db;
+}
+
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #2972b0;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.content {
+  display: flex;
+  margin: 82px auto 32px;
+  padding: 0 16px;
+  max-width: 1280px;
+  flex-direction: column;
+  align-items: center;
+}
+
+svg.material-icons {
+  height: 24px;
+  width: auto;
+}
+
+svg.material-icons:not(:last-child) {
+  margin-right: 8px;
+}
+
+.card svg.material-icons path {
+  fill: #888;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+svg#clouds {
+  position: fixed;
+  bottom: -160px;
+  left: -230px;
+  z-index: -10;
+  width: 2222px;
+}
+
+
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+footer,
+header,
+main {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 3rem 1rem;
+}
+
+hr {
+  background-color: var(--color-bg-secondary);
+  border: none;
+  height: 1px;
+  margin: 4rem 0;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+header nav img {
+  margin: 1rem 0;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  justify-content: space-between;
+  margin-bottom: 7rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
+  position: relative;
+  text-align: left;
+}
+
+nav ul li ul li,
+nav ul li ul li a {
+  display: block;
+}
+
+h2 {
+  line-height: 1.5;
+}
+
+ul li {
+  padding: 0.2rem 0;
+}
+
+p {
+  margin: 0.75rem 0;
+  padding: 0;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section header {
+  padding-top: 0;
+  width: 100%;
+}
+
+section img {
+  max-width: 100%;
+}
