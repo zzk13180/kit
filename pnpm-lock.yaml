@@ -321,6 +321,12 @@ importers:
         specifier: ^4.12.0
         version: 4.16.2
 
+  apps/serverless:
+    devDependencies:
+      http-proxy:
+        specifier: ^1.18.1
+        version: 1.18.1
+
   packages/common: {}
 
   packages/tsconfig: {}

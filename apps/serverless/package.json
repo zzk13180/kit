@@ -1,0 +1,11 @@
+{
+  "name": "@kit/serverless",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
