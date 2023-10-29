@@ -1,3 +1,5 @@
+/* eslint-disable no-prototype-builtins */
+/* eslint-disable guard-for-in */
 import { ElementRef, Renderer2 } from '@angular/core'
 import { DaBreakpoint, DaBreakpoints, DaMergedProperty } from './layout.types'
 
